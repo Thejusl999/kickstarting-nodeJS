@@ -1,0 +1,16 @@
+{
+  "name": "1.kickstarting-node-js",
+  "version": "1.0.0",
+  "description": "Creating a Package.json file",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon task-9.js",
+    "start-server": "node task-9.js"
+  },
+  "author": "Thejus",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

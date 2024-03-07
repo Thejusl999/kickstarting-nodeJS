@@ -16,5 +16,5 @@ console.log(reqHandler.someText); */
 const reqHandler=require('./cleanup');
 console.log(reqHandler.someText);
 
-const server=http.createServer(reqHandler);
+const server=http.createServer(reqHandler.handler);
 server.listen(3000);

@@ -41,6 +41,7 @@ const reqHandler=(req,res)=>{
         });
     }
 }
+
 // THERE ARE 3 WAYS TO EXPORT
 // 1. As a function
 // module.exports=reqHandler;
